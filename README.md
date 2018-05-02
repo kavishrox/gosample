@@ -52,6 +52,7 @@ CREATE TABLE products
     }
   ]
 }
+```
 
 7. Voila ! Run debugger from vscode
 8. In case your vs code shows delve error, run ```go get github.com/derekparker/delve/cmd/dlv```

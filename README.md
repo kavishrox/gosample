@@ -1,10 +1,10 @@
 # gosample
 
 ## STEPS and integration with VScode
-
-1. go get -u github.com/kavishrox/gosample
-2. go get github.com/gorilla/mux github.com/lib/pq
-3. Create a products table as follows:
+1. Install Go from [Go Website](https://golang.org/doc/install)
+3. ```go get -u github.com/kavishrox/gosample```
+4. ```go get github.com/gorilla/mux github.com/lib/pq```
+5. Create a products table as follows:
 
 ```
 CREATE TABLE products
@@ -16,7 +16,7 @@ CREATE TABLE products
 )
 ```
 
-4. Set .vscode launch.json settings as follows
+6. Set .vscode launch.json settings as follows
 
 ```
 {
@@ -53,4 +53,5 @@ CREATE TABLE products
   ]
 }
 
-5. Voila ! Run debugger from vscode
+7. Voila ! Run debugger from vscode
+8. In case your vs code shows delve error, run ```go get github.com/derekparker/delve/cmd/dlv```
